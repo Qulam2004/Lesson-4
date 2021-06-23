@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+.navbar{
+    height: 65px;
+    z-index: 2;
+}
+
+body h1{
+    padding: 20px;
+    font-size:28px;
+    color:#666;
+    padding-top: 10px;
+    z-index: 1;
+    
+}
+
+.nav-item{
+    padding: 10px;
+    margin-left: 41px;
+    transition: transform 1s;
+    color: #666;
+}
+
+.nav-item:hover{
+    transform: rotate(360deg);
+}
+
+.nav-link:hover{
+ text-decoration: none;
+ outline: none;
+}
+
+.form-control.me-2{
+    width: 55%;
+    margin-left: 25px;
+    margin-top: 0px;
+    border-radius: 10px;
+}
+
+.navbar-h1{
+    transition: transform 1s;
+}
+
+.navbar-h1:hover{
+    transform: rotate(360deg);
+    color: blue;
+    cursor:pointer;
+}
+
+.img-1{
+    height: 900px;
+    width: 1350px;
+    margin-top: -21px;
+    z-index: -1;
+}
+
+.img-2{
+    margin-left:95px;
+    margin-top: 24px;
+}
+
+.title-1{
+    background-color: grey;
+    height: 470px;
+    width: 1350px;
+    margin-top: -130px;
+    z-index: 2;
+    position: relative;
+}
+
+.title-1 p{
+    width: 400px;
+    position: absolute;
+    right: 9%;
+    bottom: 35%;
+    color: black;
+}
+
+.title-1 h1{
+    position: absolute;
+    right: 20%;
+    bottom: 60%;
+}
+
+.btn1{
+    position: absolute;
+    right: 19%;
+    bottom: 15%;
+    border: none;
+    z-index: 1;
+}
+
+.title-h1{
+    color: black;
+    position: absolute;
+    top: 5%;
+    right: 35%;
+    width: 395px;
+    font-size: 80px;
+
+}
+
+.title{
+position: relative;
+
+}
+.btn2{
+    position: absolute;
+    top: 42%;
+    right: 55%;
+    z-index: 1;
+}
+
+.btn3{
+    position: absolute;
+    top: 42%;
+    right: 35%;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
